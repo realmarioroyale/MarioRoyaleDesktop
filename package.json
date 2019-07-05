@@ -1,0 +1,14 @@
+{
+  "name": "mario-royale-desktop-app",
+  "version": "0.1.0",
+  "description": "Desktop  app for Mario Royale",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Mario Royale Dev Team",
+  "devDependencies": {
+    "electron": "^5.0.6",
+    "electron-packager": "^14.0.1"
+  }
+}
