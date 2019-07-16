@@ -7,6 +7,8 @@ const path = require('path')
 let mainWindow
 
 function createWindow () {
+  // Add the extension
+  // BrowserWindow.addExtension('')
   // Create the browser window.
   mainWindow = new BrowserWindow({
     width: 800,
@@ -18,7 +20,7 @@ function createWindow () {
   })
 
   // and load the index.html of the app.
-  mainWindow.loadURL('http://77.68.80.27/royale/index.html')
+  mainWindow.loadURL('http://marioroyale.cyuubi.gq/index.html')
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
